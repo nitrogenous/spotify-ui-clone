@@ -3,14 +3,15 @@ import Sidebar from '../../Components/Sidebar/';
 import ControlBar from '../../Components/ControlBar/';
 import Container from '../../Components/Container';
 
+import './index.scss';
+
 const Main = (props) => {
   return (
-    <div>
+    <div className="main-screen">
       <Header />
-      Main
       <Sidebar />
-      <Container />
       <ControlBar />
+      <Container />
     </div>
   );
 };

@@ -1,6 +1,8 @@
+import './index.scss';
+
 const ControlBar = () => {
   return (
-    <div>
+    <div className="control-bar">
       ControlBar
     </div>
   );

@@ -1,6 +1,8 @@
+import './index.scss';
+
 const Container = () => {
   return (
-    <div>
+    <div className="container">
       Container
     </div>
   );
