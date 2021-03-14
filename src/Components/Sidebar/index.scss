@@ -69,6 +69,16 @@ $sidebar-width: 260px;
             }
           }
         }
+
+        &:hover {
+          color: #fff;
+
+        .directory-logo {
+            svg path {
+              fill: #fff;
+            }
+          }
+        }
       }
     }
 
