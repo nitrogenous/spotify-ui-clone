@@ -13,6 +13,6 @@ test('main screen renders all components properly', () => {
 
   expect(getByText('Header')).toBeInTheDocument();
   expect(getByText('Sidebar')).toBeInTheDocument();
-  expect(getByText('ContainerWrapper')).toBeInTheDocument();
+  expect(getByText('Container')).toBeInTheDocument();
   expect(getByText('ControlBar')).toBeInTheDocument();
 });

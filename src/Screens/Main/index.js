@@ -1,7 +1,7 @@
 import Header from '../../Components/Header/';
 import Sidebar from '../../Components/Sidebar/';
 import ControlBar from '../../Components/ControlBar/';
-import ContainerWrapper from '../../Components/ContainerWrapper/';
+import Container from '../../Components/Container';
 
 const Main = (props) => {
   return (
@@ -9,7 +9,7 @@ const Main = (props) => {
       <Header />
       Main
       <Sidebar />
-      <ContainerWrapper />
+      <Container />
       <ControlBar />
     </div>
   );
