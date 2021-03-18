@@ -1,12 +1,7 @@
 import { render } from '@testing-library/react';
-import App from './App';
 import Main from './Screens/Main/';
+import Sidebar from './Components/Sidebar';
 
-test('renders all components properly', () => {
-  const { getByText } = render(<App />);
-
-  expect(getByText('Header')).toBeInTheDocument();
-  expect(getByText('Sidebar')).toBeInTheDocument();
-  expect(getByText('Container')).toBeInTheDocument();
-  expect(getByText('ControlBar')).toBeInTheDocument();
+test('sidebar renders properly', () => {
+ 
 });

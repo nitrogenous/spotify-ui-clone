@@ -1,86 +1,11 @@
-$sidebar-width: 260px;
-
 .sidebar {
   font-family: Helvetica, Arial, sans-serif;
   display: flex;
   min-height: 0;
   padding-top: 24px;
   grid-area: sidebar;
-  width: $sidebar-width;
+  width: 260px;
   flex-direction: column;
   background-color: #030303;
 
-  .logo {
-    text-align: left;
-
-    svg {
-      width: 100%;
-      max-width: ($sidebar-width / 1.5);
-      height: 40px;
-
-      path {
-        fill: #FFFFFF !important;
-      }
-    }
-  }
-
-  .directories {
-    padding: 0;
-    list-style: none;
-
-    li {
-      padding: 0 8px;
-
-      .directory {
-        height: 40px;
-        display: flex;
-        padding: 0 16px;
-        color: #b3b3b3;
-        align-items: center;
-        text-decoration: none;
-
-        &-name {
-          font-size: 14px;
-          font-weight: 700;
-          line-height: 16px;
-        }
-
-        &-logo {
-          margin-right: 16px;
-
-          svg {
-            width: 24px;
-            height: 24px;
-            
-            path {
-              fill:  #b3b3b3;
-            }
-          }
-        }
-
-        &.current {
-          color: #fff;
-          border-radius: 4px;
-          background-color: #282828;
-
-          .directory-logo {
-            svg path {
-              fill: #fff;
-            }
-          }
-        }
-
-        &:hover {
-          color: #fff;
-
-        .directory-logo {
-            svg path {
-              fill: #fff;
-            }
-          }
-        }
-      }
-    }
-
-  }
 }

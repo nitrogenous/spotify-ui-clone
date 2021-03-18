@@ -1,0 +1,41 @@
+.playlists {
+  color: #b3b3b3;
+  padding: 0px 24px;
+
+  .wrapper-title {
+    font-size: 12px;
+    letter-spacing: .1em;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  button {
+    padding: 0;
+    width: 100%;
+    border: none;
+    display: flex;
+    color: #b3b3b3;
+    margin: 12px 0px;
+    background: none;
+    align-items: center;
+
+    div {
+      margin-right: 16px;
+      display: flex;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

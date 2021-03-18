@@ -1,0 +1,13 @@
+.sidebar-logo {
+  text-align: left;
+
+  svg {
+    width: 100%;
+    max-width: (260px / 1.5);
+    height: 40px;
+
+    path {
+      fill: #FFFFFF !important;
+    }
+  }
+}
